@@ -1,0 +1,70 @@
+{% load static from staticfiles %}
+
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="Akash Vats">
+  <meta name="Keywords" content="enthusiasm, energetic blogspot">
+  <meta name="Description" content="Blogs for daily enthusiasm">
+  <meta name="viewport" content ="width-devoce-width">
+  <title>yourBlog.com|Welcomes you</title>
+  <link rel="stylesheet" href="{% static "style.css"%}">
+ </head>
+ <body>
+	<header>
+		<div class="container">
+			<div id="branding">
+				<h1><span class="highlight">YourBlog.com</span> Web</h1>
+			</div>
+			<nav>
+			  <ul>
+			   <li class="current"><a href="index.html">Home</a></li>
+			   <li><a href="about.html">About</a></li>
+			   <li><a href="services.html">Services</a></li>
+			  </ul>
+			</nav>
+
+		</div>
+	</header>
+	<section id="showcase">
+	  <div class="container">
+	   <h1>YourBlog incredible website for Blogs</h1>
+	   <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
+		  Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+	  </div>
+	</section>
+	
+	<section id="newsletter">
+	  <div class="container">
+	   <h1>Subscribe to our newsletter</h1>
+	   <form>
+	     <input type="email" placeholder="Enter Email...">
+		 <button type="submit" class="button_1">Subscribe</button>
+	  </div>
+	</section>
+	
+	<section id="boxes">
+	  <div class="container">
+	   <div class="box">
+		 <img src="/static/daily_logo.png">
+	     <h3>Daily Blog</h3>
+		 <p>One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin.</p>
+	   </div>
+	   <div class="box">
+	     <img src="/static/YouthWeek_logo.png">
+		 <h3>Weekly Blog</h3>
+		 <p>One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin.</p>
+	   </div>
+	   <div class="box">
+	     <img src="/static/friends_logo.jpg">
+		 <h3>Friends Blog</h3>
+		 <p>One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin.</p>
+	   </div>	   
+	</section>
+	<footer>
+		<p>YourBlog.com, Copyright &copy; 2018</p>
+	</footer>
+ </body>
+</html>

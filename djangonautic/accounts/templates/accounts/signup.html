@@ -1,0 +1,9 @@
+{% extends 'base_layer.html' %}
+{% block content %}
+ <h1>SignUp</h1>
+  <form class="site-form" action="index.html" method="Post">
+    {% csrf_token %}
+    {{ form }}
+    <input type="submit" value="signup">
+  </form>
+{% endblock %}
